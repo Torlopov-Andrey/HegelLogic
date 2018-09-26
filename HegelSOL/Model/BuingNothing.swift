@@ -1,7 +1,5 @@
 import UIKit
 
-print("W.F.Gegel - Logic.")
-
 class Being {
 	var thereIs: Bool = true
 	var parents: [Being] = []
@@ -34,6 +32,3 @@ class Nothing: Being {
 		return "Nothing with parents [\(self.parents.count)]"
 	}
 }
-
-let buing = Being()
-let nothing = buing.think().think().think().think()
