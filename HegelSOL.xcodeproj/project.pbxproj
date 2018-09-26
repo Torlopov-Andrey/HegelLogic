@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		77B499BFFB2058967D2CBF91 /* Pods_HegelSOL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8022715A1E6CA92B46438BA /* Pods_HegelSOL.framework */; };
+		A40AB9E4215B5C9400F603D3 /* Nothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40AB9E3215B5C9400F603D3 /* Nothing.swift */; };
+		A40AB9E6215B5CC100F603D3 /* Becoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40AB9E5215B5CC100F603D3 /* Becoming.swift */; };
 		A4C0075A215B4B1B009B209A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00759215B4B1B009B209A /* AppDelegate.swift */; };
 		A4C0075C215B4B1B009B209A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0075B215B4B1B009B209A /* MainViewController.swift */; };
 		A4C00761215B4B1C009B209A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C00760215B4B1C009B209A /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		3E37D30CCB6367D83559024F /* Pods-HegelSOL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HegelSOL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HegelSOL/Pods-HegelSOL.debug.xcconfig"; sourceTree = "<group>"; };
+		A40AB9E3215B5C9400F603D3 /* Nothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nothing.swift; sourceTree = "<group>"; };
+		A40AB9E5215B5CC100F603D3 /* Becoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Becoming.swift; sourceTree = "<group>"; };
 		A4C00756215B4B1B009B209A /* HegelSOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HegelSOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C00759215B4B1B009B209A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C0075B215B4B1B009B209A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				A4C0076D215B4C04009B209A /* BuingNothing.swift */,
+				A40AB9E3215B5C9400F603D3 /* Nothing.swift */,
+				A40AB9E5215B5CC100F603D3 /* Becoming.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -403,11 +409,13 @@
 				A4C0078D215B4CBE009B209A /* TableCellConfiguration.swift in Sources */,
 				A4C007A2215B4D08009B209A /* CustomButton.swift in Sources */,
 				A4C00791215B4CCE009B209A /* DI.swift in Sources */,
+				A40AB9E6215B5CC100F603D3 /* Becoming.swift in Sources */,
 				A4C0078E215B4CBE009B209A /* BaseTableAdapter.swift in Sources */,
 				A4C007A8215B4DCA009B209A /* Fonts.swift in Sources */,
 				A4C0075C215B4B1B009B209A /* MainViewController.swift in Sources */,
 				A4C0078F215B4CBE009B209A /* StaticTableAdapter.swift in Sources */,
 				A4C007A1215B4D08009B209A /* BaseTableViewHeaderFooterView.swift in Sources */,
+				A40AB9E4215B5C9400F603D3 /* Nothing.swift in Sources */,
 				A4C00798215B4CE3009B209A /* BaseNavigationController.swift in Sources */,
 				A4C0076E215B4C04009B209A /* BuingNothing.swift in Sources */,
 				A4C0078B215B4CBE009B209A /* TableViewHeaderFooterConfiguration.swift in Sources */,

@@ -6,7 +6,7 @@ class Being {
 	var thereIs: Bool = true
 	var parents: [Being] = []
 	
-	private var customDescription: String?
+	internal var customDescription: String?
 	
 	init(parents: [Being] = [], customDescription: String? = nil) {
 		self.parents = parents

@@ -3,32 +3,28 @@ import UIKit
 class Being {
 	var thereIs: Bool = true
 	var parents: [Being] = []
+	internal var customDescription: String?
 	
-	init(parents: [Being] = []) {
+	init(parents: [Being] = [], customDescription: String? = nil) {
 		self.parents = parents
 		self.parents.append(self)
 	}
 	
 	func transition() -> Being {
-		return Nothing(parents: parents)
+		//FIXME: точное сравнение типов
+		let condition = parents.filter { $0 is Being }.count > 0 && parents.filter { $0 is Nothing }.count > 0
+		return condition ? Becoming(parents: parents) : Nothing(parents: parents)
 	}
 	
 	func think() -> Being {
 		return transition()
 	}
 	
+	func negation() -> Being {
+		return transition()
+	}
+	
 	func description() -> String {
-		return "Buing with parents [\(self.parents.count)]"
-	}
-}
-
-class Nothing: Being {
-	
-	override func transition() -> Being {
-		return Being(parents: parents)
-	}
-	
-	override func description() -> String {
-		return "Nothing with parents [\(self.parents.count)]"
+		return customDescription == nil ? "Buing with parents [\(self.parents.count)]" : customDescription!
 	}
 }
