@@ -7,285 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77B499BFFB2058967D2CBF91 /* Pods_HegelSOL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8022715A1E6CA92B46438BA /* Pods_HegelSOL.framework */; };
-		A40AB9E4215B5C9400F603D3 /* Nothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40AB9E3215B5C9400F603D3 /* Nothing.swift */; };
-		A40AB9E6215B5CC100F603D3 /* Becoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40AB9E5215B5CC100F603D3 /* Becoming.swift */; };
-		A4C0075A215B4B1B009B209A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00759215B4B1B009B209A /* AppDelegate.swift */; };
-		A4C0075C215B4B1B009B209A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0075B215B4B1B009B209A /* MainViewController.swift */; };
-		A4C00761215B4B1C009B209A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C00760215B4B1C009B209A /* Assets.xcassets */; };
-		A4C00764215B4B1C009B209A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C00762215B4B1C009B209A /* LaunchScreen.storyboard */; };
-		A4C0076E215B4C04009B209A /* BuingNothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0076D215B4C04009B209A /* BuingNothing.swift */; };
-		A4C00777215B4C89009B209A /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00776215B4C89009B209A /* DIContainer.swift */; };
-		A4C0077A215B4C92009B209A /* UserDefaultsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00779215B4C92009B209A /* UserDefaultsDataStore.swift */; };
-		A4C00780215B4CB7009B209A /* NavigatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0077C215B4CB7009B209A /* NavigatorProtocol.swift */; };
-		A4C00781215B4CB7009B209A /* TabBarControllersProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0077D215B4CB7009B209A /* TabBarControllersProviderProtocol.swift */; };
-		A4C00782215B4CB7009B209A /* TabBarControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0077E215B4CB7009B209A /* TabBarControllersProvider.swift */; };
-		A4C00783215B4CB7009B209A /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0077F215B4CB7009B209A /* Navigator.swift */; };
-		A4C0078B215B4CBE009B209A /* TableViewHeaderFooterConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00786215B4CBE009B209A /* TableViewHeaderFooterConfiguration.swift */; };
-		A4C0078C215B4CBE009B209A /* TableSectionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00787215B4CBE009B209A /* TableSectionConfiguration.swift */; };
-		A4C0078D215B4CBE009B209A /* TableCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00788215B4CBE009B209A /* TableCellConfiguration.swift */; };
-		A4C0078E215B4CBE009B209A /* BaseTableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00789215B4CBE009B209A /* BaseTableAdapter.swift */; };
-		A4C0078F215B4CBE009B209A /* StaticTableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0078A215B4CBE009B209A /* StaticTableAdapter.swift */; };
-		A4C00791215B4CCE009B209A /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00790215B4CCE009B209A /* DI.swift */; };
-		A4C00796215B4CE3009B209A /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00793215B4CE3009B209A /* BaseTabBarController.swift */; };
-		A4C00797215B4CE3009B209A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00794215B4CE3009B209A /* BaseViewController.swift */; };
-		A4C00798215B4CE3009B209A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C00795215B4CE3009B209A /* BaseNavigationController.swift */; };
-		A4C007A0215B4D08009B209A /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0079B215B4D08009B209A /* BaseTableViewCell.swift */; };
-		A4C007A1215B4D08009B209A /* BaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0079C215B4D08009B209A /* BaseTableViewHeaderFooterView.swift */; };
-		A4C007A2215B4D08009B209A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0079D215B4D08009B209A /* CustomButton.swift */; };
-		A4C007A3215B4D08009B209A /* BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0079E215B4D08009B209A /* BaseScrollView.swift */; };
-		A4C007A4215B4D08009B209A /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0079F215B4D08009B209A /* LoaderView.swift */; };
-		A4C007A8215B4DCA009B209A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C007A6215B4DCA009B209A /* Fonts.swift */; };
-		A4C007A9215B4DCA009B209A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C007A7215B4DCA009B209A /* Colors.swift */; };
+		A491A02D2204AB1D002F584B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A02C2204AB1D002F584B /* AppDelegate.swift */; };
+		A491A0342204AB1F002F584B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491A0332204AB1F002F584B /* Assets.xcassets */; };
+		A491A0372204AB1F002F584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491A0352204AB1F002F584B /* LaunchScreen.storyboard */; };
+		A491A0422204AB1F002F584B /* HegelSOLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A0412204AB1F002F584B /* HegelSOLTests.swift */; };
+		A491A0522204ABB2002F584B /* Nothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A04E2204ABB2002F584B /* Nothing.swift */; };
+		A491A0532204ABB2002F584B /* Becoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A04F2204ABB2002F584B /* Becoming.swift */; };
+		A491A0542204ABB2002F584B /* Being.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A0502204ABB2002F584B /* Being.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A491A03E2204AB1F002F584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A491A0212204AB1D002F584B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A491A0282204AB1D002F584B;
+			remoteInfo = HegelSOL;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		3E37D30CCB6367D83559024F /* Pods-HegelSOL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HegelSOL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HegelSOL/Pods-HegelSOL.debug.xcconfig"; sourceTree = "<group>"; };
-		A40AB9E3215B5C9400F603D3 /* Nothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nothing.swift; sourceTree = "<group>"; };
-		A40AB9E5215B5CC100F603D3 /* Becoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Becoming.swift; sourceTree = "<group>"; };
-		A4C00756215B4B1B009B209A /* HegelSOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HegelSOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4C00759215B4B1B009B209A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4C0075B215B4B1B009B209A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		A4C00760215B4B1C009B209A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4C00763215B4B1C009B209A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4C00765215B4B1C009B209A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4C0076C215B4BF9009B209A /* Hegel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hegel.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		A4C0076D215B4C04009B209A /* BuingNothing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuingNothing.swift; path = HegelSOL/Model/BuingNothing.swift; sourceTree = SOURCE_ROOT; };
-		A4C00776215B4C89009B209A /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
-		A4C00779215B4C92009B209A /* UserDefaultsDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsDataStore.swift; sourceTree = "<group>"; };
-		A4C0077C215B4CB7009B209A /* NavigatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatorProtocol.swift; sourceTree = "<group>"; };
-		A4C0077D215B4CB7009B209A /* TabBarControllersProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllersProviderProtocol.swift; sourceTree = "<group>"; };
-		A4C0077E215B4CB7009B209A /* TabBarControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllersProvider.swift; sourceTree = "<group>"; };
-		A4C0077F215B4CB7009B209A /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		A4C00786215B4CBE009B209A /* TableViewHeaderFooterConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeaderFooterConfiguration.swift; sourceTree = "<group>"; };
-		A4C00787215B4CBE009B209A /* TableSectionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSectionConfiguration.swift; sourceTree = "<group>"; };
-		A4C00788215B4CBE009B209A /* TableCellConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellConfiguration.swift; sourceTree = "<group>"; };
-		A4C00789215B4CBE009B209A /* BaseTableAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableAdapter.swift; sourceTree = "<group>"; };
-		A4C0078A215B4CBE009B209A /* StaticTableAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTableAdapter.swift; sourceTree = "<group>"; };
-		A4C00790215B4CCE009B209A /* DI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
-		A4C00793215B4CE3009B209A /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
-		A4C00794215B4CE3009B209A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		A4C00795215B4CE3009B209A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		A4C0079B215B4D08009B209A /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
-		A4C0079C215B4D08009B209A /* BaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
-		A4C0079D215B4D08009B209A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		A4C0079E215B4D08009B209A /* BaseScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScrollView.swift; sourceTree = "<group>"; };
-		A4C0079F215B4D08009B209A /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
-		A4C007A6215B4DCA009B209A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		A4C007A7215B4DCA009B209A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		E628FDE5159B472B8091B7D9 /* Pods-HegelSOL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HegelSOL.release.xcconfig"; path = "Pods/Target Support Files/Pods-HegelSOL/Pods-HegelSOL.release.xcconfig"; sourceTree = "<group>"; };
-		E8022715A1E6CA92B46438BA /* Pods_HegelSOL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HegelSOL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A491A0292204AB1D002F584B /* HegelSOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HegelSOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A491A02C2204AB1D002F584B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A491A0332204AB1F002F584B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A491A0362204AB1F002F584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A491A0382204AB1F002F584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A491A03D2204AB1F002F584B /* HegelSOLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HegelSOLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A491A0412204AB1F002F584B /* HegelSOLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HegelSOLTests.swift; sourceTree = "<group>"; };
+		A491A0432204AB1F002F584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A491A04E2204ABB2002F584B /* Nothing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nothing.swift; sourceTree = "<group>"; };
+		A491A04F2204ABB2002F584B /* Becoming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Becoming.swift; sourceTree = "<group>"; };
+		A491A0502204ABB2002F584B /* Being.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Being.swift; sourceTree = "<group>"; };
+		A491A0512204ABB2002F584B /* Hegel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hegel.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4C00753215B4B1B009B209A /* Frameworks */ = {
+		A491A0262204AB1D002F584B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B499BFFB2058967D2CBF91 /* Pods_HegelSOL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A03A2204AB1F002F584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		613314E84389396BE03C8D87 /* Pods */ = {
+		A491A0202204AB1D002F584B = {
 			isa = PBXGroup;
 			children = (
-				3E37D30CCB6367D83559024F /* Pods-HegelSOL.debug.xcconfig */,
-				E628FDE5159B472B8091B7D9 /* Pods-HegelSOL.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A4C0074D215B4B1B009B209A = {
-			isa = PBXGroup;
-			children = (
-				A4C00758215B4B1B009B209A /* HegelSOL */,
-				A4C00757215B4B1B009B209A /* Products */,
-				613314E84389396BE03C8D87 /* Pods */,
-				BE13E4581C5436F95C7B4A40 /* Frameworks */,
+				A491A02B2204AB1D002F584B /* HegelSOL */,
+				A491A0402204AB1F002F584B /* HegelSOLTests */,
+				A491A02A2204AB1D002F584B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A4C00757215B4B1B009B209A /* Products */ = {
+		A491A02A2204AB1D002F584B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4C00756215B4B1B009B209A /* HegelSOL.app */,
+				A491A0292204AB1D002F584B /* HegelSOL.app */,
+				A491A03D2204AB1F002F584B /* HegelSOLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4C00758215B4B1B009B209A /* HegelSOL */ = {
+		A491A02B2204AB1D002F584B /* HegelSOL */ = {
 			isa = PBXGroup;
 			children = (
-				A4C0076C215B4BF9009B209A /* Hegel.playground */,
-				A4C00765215B4B1C009B209A /* Info.plist */,
-				A4C00759215B4B1B009B209A /* AppDelegate.swift */,
-				A4C00773215B4C74009B209A /* Common */,
-				A4C00770215B4C24009B209A /* Controllers */,
-				A4C00772215B4C2E009B209A /* Model */,
-				A4C0076F215B4C12009B209A /* Resources */,
+				A491A0512204ABB2002F584B /* Hegel.playground */,
+				A491A04D2204ABB2002F584B /* Model */,
+				A491A04C2204AB4B002F584B /* Supporting files */,
 			);
 			path = HegelSOL;
 			sourceTree = "<group>";
 		};
-		A4C0076F215B4C12009B209A /* Resources */ = {
+		A491A0402204AB1F002F584B /* HegelSOLTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4C00760215B4B1C009B209A /* Assets.xcassets */,
-				A4C00762215B4B1C009B209A /* LaunchScreen.storyboard */,
+				A491A0412204AB1F002F584B /* HegelSOLTests.swift */,
+				A491A0432204AB1F002F584B /* Info.plist */,
 			);
-			path = Resources;
+			path = HegelSOLTests;
 			sourceTree = "<group>";
 		};
-		A4C00770215B4C24009B209A /* Controllers */ = {
+		A491A04C2204AB4B002F584B /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				A4C0075B215B4B1B009B209A /* MainViewController.swift */,
+				A491A02C2204AB1D002F584B /* AppDelegate.swift */,
+				A491A0332204AB1F002F584B /* Assets.xcassets */,
+				A491A0352204AB1F002F584B /* LaunchScreen.storyboard */,
+				A491A0382204AB1F002F584B /* Info.plist */,
 			);
-			path = Controllers;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
-		A4C00772215B4C2E009B209A /* Model */ = {
+		A491A04D2204ABB2002F584B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A4C0076D215B4C04009B209A /* BuingNothing.swift */,
-				A40AB9E3215B5C9400F603D3 /* Nothing.swift */,
-				A40AB9E5215B5CC100F603D3 /* Becoming.swift */,
+				A491A04E2204ABB2002F584B /* Nothing.swift */,
+				A491A04F2204ABB2002F584B /* Becoming.swift */,
+				A491A0502204ABB2002F584B /* Being.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A4C00773215B4C74009B209A /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00774215B4C78009B209A /* Core */,
-				A4C00775215B4C7D009B209A /* Public */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		A4C00774215B4C78009B209A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00776215B4C89009B209A /* DIContainer.swift */,
-				A4C00778215B4C92009B209A /* DataStore */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		A4C00775215B4C7D009B209A /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00790215B4CCE009B209A /* DI.swift */,
-				A4C007A5215B4DCA009B209A /* Themes */,
-				A4C00792215B4CE3009B209A /* Controllers */,
-				A4C0077B215B4CB7009B209A /* Navigator */,
-				A4C00784215B4CBE009B209A /* TableAdapter */,
-				A4C00799215B4D08009B209A /* Views */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		A4C00778215B4C92009B209A /* DataStore */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00779215B4C92009B209A /* UserDefaultsDataStore.swift */,
-			);
-			path = DataStore;
-			sourceTree = "<group>";
-		};
-		A4C0077B215B4CB7009B209A /* Navigator */ = {
-			isa = PBXGroup;
-			children = (
-				A4C0077C215B4CB7009B209A /* NavigatorProtocol.swift */,
-				A4C0077D215B4CB7009B209A /* TabBarControllersProviderProtocol.swift */,
-				A4C0077E215B4CB7009B209A /* TabBarControllersProvider.swift */,
-				A4C0077F215B4CB7009B209A /* Navigator.swift */,
-			);
-			path = Navigator;
-			sourceTree = "<group>";
-		};
-		A4C00784215B4CBE009B209A /* TableAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00785215B4CBE009B209A /* Config */,
-				A4C00789215B4CBE009B209A /* BaseTableAdapter.swift */,
-				A4C0078A215B4CBE009B209A /* StaticTableAdapter.swift */,
-			);
-			path = TableAdapter;
-			sourceTree = "<group>";
-		};
-		A4C00785215B4CBE009B209A /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00786215B4CBE009B209A /* TableViewHeaderFooterConfiguration.swift */,
-				A4C00787215B4CBE009B209A /* TableSectionConfiguration.swift */,
-				A4C00788215B4CBE009B209A /* TableCellConfiguration.swift */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		A4C00792215B4CE3009B209A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				A4C00793215B4CE3009B209A /* BaseTabBarController.swift */,
-				A4C00794215B4CE3009B209A /* BaseViewController.swift */,
-				A4C00795215B4CE3009B209A /* BaseNavigationController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		A4C00799215B4D08009B209A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A4C0079A215B4D08009B209A /* TableView */,
-				A4C0079D215B4D08009B209A /* CustomButton.swift */,
-				A4C0079E215B4D08009B209A /* BaseScrollView.swift */,
-				A4C0079F215B4D08009B209A /* LoaderView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A4C0079A215B4D08009B209A /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				A4C0079B215B4D08009B209A /* BaseTableViewCell.swift */,
-				A4C0079C215B4D08009B209A /* BaseTableViewHeaderFooterView.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		A4C007A5215B4DCA009B209A /* Themes */ = {
-			isa = PBXGroup;
-			children = (
-				A4C007A6215B4DCA009B209A /* Fonts.swift */,
-				A4C007A7215B4DCA009B209A /* Colors.swift */,
-			);
-			path = Themes;
-			sourceTree = "<group>";
-		};
-		BE13E4581C5436F95C7B4A40 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E8022715A1E6CA92B46438BA /* Pods_HegelSOL.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4C00755215B4B1B009B209A /* HegelSOL */ = {
+		A491A0282204AB1D002F584B /* HegelSOL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4C00768215B4B1C009B209A /* Build configuration list for PBXNativeTarget "HegelSOL" */;
+			buildConfigurationList = A491A0462204AB1F002F584B /* Build configuration list for PBXNativeTarget "HegelSOL" */;
 			buildPhases = (
-				DB39D806D6FFD6B5E306A72F /* [CP] Check Pods Manifest.lock */,
-				A4C00752215B4B1B009B209A /* Sources */,
-				A4C00753215B4B1B009B209A /* Frameworks */,
-				A4C00754215B4B1B009B209A /* Resources */,
-				6AB7C374243F49CE8BA475AA /* [CP] Embed Pods Frameworks */,
+				A491A0252204AB1D002F584B /* Sources */,
+				A491A0262204AB1D002F584B /* Frameworks */,
+				A491A0272204AB1D002F584B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -293,25 +134,47 @@
 			);
 			name = HegelSOL;
 			productName = HegelSOL;
-			productReference = A4C00756215B4B1B009B209A /* HegelSOL.app */;
+			productReference = A491A0292204AB1D002F584B /* HegelSOL.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A491A03C2204AB1F002F584B /* HegelSOLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A491A0492204AB1F002F584B /* Build configuration list for PBXNativeTarget "HegelSOLTests" */;
+			buildPhases = (
+				A491A0392204AB1F002F584B /* Sources */,
+				A491A03A2204AB1F002F584B /* Frameworks */,
+				A491A03B2204AB1F002F584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A491A03F2204AB1F002F584B /* PBXTargetDependency */,
+			);
+			name = HegelSOLTests;
+			productName = HegelSOLTests;
+			productReference = A491A03D2204AB1F002F584B /* HegelSOLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A4C0074E215B4B1B009B209A /* Project object */ = {
+		A491A0212204AB1D002F584B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Andrey Torlopov";
 				TargetAttributes = {
-					A4C00755215B4B1B009B209A = {
-						CreatedOnToolsVersion = 10.0;
+					A491A0282204AB1D002F584B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					A491A03C2204AB1F002F584B = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = A491A0282204AB1D002F584B;
 					};
 				};
 			};
-			buildConfigurationList = A4C00751215B4B1B009B209A /* Build configuration list for PBXProject "HegelSOL" */;
+			buildConfigurationList = A491A0242204AB1D002F584B /* Build configuration list for PBXProject "HegelSOL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,117 +182,71 @@
 				en,
 				Base,
 			);
-			mainGroup = A4C0074D215B4B1B009B209A;
-			productRefGroup = A4C00757215B4B1B009B209A /* Products */;
+			mainGroup = A491A0202204AB1D002F584B;
+			productRefGroup = A491A02A2204AB1D002F584B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4C00755215B4B1B009B209A /* HegelSOL */,
+				A491A0282204AB1D002F584B /* HegelSOL */,
+				A491A03C2204AB1F002F584B /* HegelSOLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A4C00754215B4B1B009B209A /* Resources */ = {
+		A491A0272204AB1D002F584B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C00764215B4B1C009B209A /* LaunchScreen.storyboard in Resources */,
-				A4C00761215B4B1C009B209A /* Assets.xcassets in Resources */,
+				A491A0372204AB1F002F584B /* LaunchScreen.storyboard in Resources */,
+				A491A0342204AB1F002F584B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A03B2204AB1F002F584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6AB7C374243F49CE8BA475AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HegelSOL/Pods-HegelSOL-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HegelSOL/Pods-HegelSOL-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DB39D806D6FFD6B5E306A72F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HegelSOL-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A4C00752215B4B1B009B209A /* Sources */ = {
+		A491A0252204AB1D002F584B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C00796215B4CE3009B209A /* BaseTabBarController.swift in Sources */,
-				A4C00782215B4CB7009B209A /* TabBarControllersProvider.swift in Sources */,
-				A4C007A4215B4D08009B209A /* LoaderView.swift in Sources */,
-				A4C0077A215B4C92009B209A /* UserDefaultsDataStore.swift in Sources */,
-				A4C007A0215B4D08009B209A /* BaseTableViewCell.swift in Sources */,
-				A4C007A3215B4D08009B209A /* BaseScrollView.swift in Sources */,
-				A4C007A9215B4DCA009B209A /* Colors.swift in Sources */,
-				A4C00783215B4CB7009B209A /* Navigator.swift in Sources */,
-				A4C00781215B4CB7009B209A /* TabBarControllersProviderProtocol.swift in Sources */,
-				A4C00780215B4CB7009B209A /* NavigatorProtocol.swift in Sources */,
-				A4C00777215B4C89009B209A /* DIContainer.swift in Sources */,
-				A4C00797215B4CE3009B209A /* BaseViewController.swift in Sources */,
-				A4C0078C215B4CBE009B209A /* TableSectionConfiguration.swift in Sources */,
-				A4C0078D215B4CBE009B209A /* TableCellConfiguration.swift in Sources */,
-				A4C007A2215B4D08009B209A /* CustomButton.swift in Sources */,
-				A4C00791215B4CCE009B209A /* DI.swift in Sources */,
-				A40AB9E6215B5CC100F603D3 /* Becoming.swift in Sources */,
-				A4C0078E215B4CBE009B209A /* BaseTableAdapter.swift in Sources */,
-				A4C007A8215B4DCA009B209A /* Fonts.swift in Sources */,
-				A4C0075C215B4B1B009B209A /* MainViewController.swift in Sources */,
-				A4C0078F215B4CBE009B209A /* StaticTableAdapter.swift in Sources */,
-				A4C007A1215B4D08009B209A /* BaseTableViewHeaderFooterView.swift in Sources */,
-				A40AB9E4215B5C9400F603D3 /* Nothing.swift in Sources */,
-				A4C00798215B4CE3009B209A /* BaseNavigationController.swift in Sources */,
-				A4C0076E215B4C04009B209A /* BuingNothing.swift in Sources */,
-				A4C0078B215B4CBE009B209A /* TableViewHeaderFooterConfiguration.swift in Sources */,
-				A4C0075A215B4B1B009B209A /* AppDelegate.swift in Sources */,
+				A491A02D2204AB1D002F584B /* AppDelegate.swift in Sources */,
+				A491A0542204ABB2002F584B /* Being.swift in Sources */,
+				A491A0522204ABB2002F584B /* Nothing.swift in Sources */,
+				A491A0532204ABB2002F584B /* Becoming.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A0392204AB1F002F584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A491A0422204AB1F002F584B /* HegelSOLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A491A03F2204AB1F002F584B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A491A0282204AB1D002F584B /* HegelSOL */;
+			targetProxy = A491A03E2204AB1F002F584B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		A4C00762215B4B1C009B209A /* LaunchScreen.storyboard */ = {
+		A491A0352204AB1F002F584B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4C00763215B4B1C009B209A /* Base */,
+				A491A0362204AB1F002F584B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -437,7 +254,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A4C00766215B4B1C009B209A /* Debug */ = {
+		A491A0442204AB1F002F584B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -498,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		A4C00767215B4B1C009B209A /* Release */ = {
+		A491A0452204AB1F002F584B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -543,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -553,64 +370,115 @@
 			};
 			name = Release;
 		};
-		A4C00769215B4B1C009B209A /* Debug */ = {
+		A491A0472204AB1F002F584B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E37D30CCB6367D83559024F /* Pods-HegelSOL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HegelSOL/Info.plist;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				INFOPLIST_FILE = "$(SRCROOT)/HegelSOL/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.HegelSOL;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftBook.HegelSOL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A4C0076A215B4B1C009B209A /* Release */ = {
+		A491A0482204AB1F002F584B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E628FDE5159B472B8091B7D9 /* Pods-HegelSOL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HegelSOL/Info.plist;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				INFOPLIST_FILE = "$(SRCROOT)/HegelSOL/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.HegelSOL;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftBook.HegelSOL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		A491A04A2204AB1F002F584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				INFOPLIST_FILE = HegelSOLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftBook.HegelSOLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HegelSOL.app/HegelSOL";
+			};
+			name = Debug;
+		};
+		A491A04B2204AB1F002F584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				INFOPLIST_FILE = HegelSOLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftBook.HegelSOLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HegelSOL.app/HegelSOL";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4C00751215B4B1B009B209A /* Build configuration list for PBXProject "HegelSOL" */ = {
+		A491A0242204AB1D002F584B /* Build configuration list for PBXProject "HegelSOL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4C00766215B4B1C009B209A /* Debug */,
-				A4C00767215B4B1C009B209A /* Release */,
+				A491A0442204AB1F002F584B /* Debug */,
+				A491A0452204AB1F002F584B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4C00768215B4B1C009B209A /* Build configuration list for PBXNativeTarget "HegelSOL" */ = {
+		A491A0462204AB1F002F584B /* Build configuration list for PBXNativeTarget "HegelSOL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4C00769215B4B1C009B209A /* Debug */,
-				A4C0076A215B4B1C009B209A /* Release */,
+				A491A0472204AB1F002F584B /* Debug */,
+				A491A0482204AB1F002F584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A491A0492204AB1F002F584B /* Build configuration list for PBXNativeTarget "HegelSOLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A491A04A2204AB1F002F584B /* Debug */,
+				A491A04B2204AB1F002F584B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A4C0074E215B4B1B009B209A /* Project object */;
+	rootObject = A491A0212204AB1D002F584B /* Project object */;
 }
