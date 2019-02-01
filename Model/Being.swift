@@ -26,6 +26,6 @@ class Being: NSObject {
 	}
 	
 	func description() -> String {
-		return customDescription ?? "Simple buing"
+		return customDescription ?? String(.simpleBeing)
 	}
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A46F22FB2204B0D300E0343F /* BeingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F22FA2204B0D300E0343F /* BeingTests.swift */; };
+		A486C54B2204CA810012102D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A486C54A2204CA810012102D /* Localizable.strings */; };
+		A486C54F2204CAA50012102D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C54E2204CAA50012102D /* Strings.swift */; };
+		A486C5542204D4480012102D /* NothingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C5532204D4480012102D /* NothingTests.swift */; };
 		A491A02D2204AB1D002F584B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A02C2204AB1D002F584B /* AppDelegate.swift */; };
 		A491A0342204AB1F002F584B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491A0332204AB1F002F584B /* Assets.xcassets */; };
 		A491A0372204AB1F002F584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491A0352204AB1F002F584B /* LaunchScreen.storyboard */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		A46F22FA2204B0D300E0343F /* BeingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeingTests.swift; sourceTree = "<group>"; };
+		A486C54A2204CA810012102D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A486C54E2204CAA50012102D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		A486C5532204D4480012102D /* NothingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingTests.swift; sourceTree = "<group>"; };
 		A491A0292204AB1D002F584B /* HegelSOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HegelSOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A491A02C2204AB1D002F584B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A491A0332204AB1F002F584B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,8 +68,25 @@
 			isa = PBXGroup;
 			children = (
 				A46F22FA2204B0D300E0343F /* BeingTests.swift */,
+				A486C5532204D4480012102D /* NothingTests.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A486C54C2204CA920012102D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A486C5502204CAFC0012102D /* Helpers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A486C5502204CAFC0012102D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A486C54E2204CAA50012102D /* Strings.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		A491A0202204AB1D002F584B = {
@@ -87,6 +110,7 @@
 		A491A02B2204AB1D002F584B /* HegelSOL */ = {
 			isa = PBXGroup;
 			children = (
+				A486C54C2204CA920012102D /* Core */,
 				A491A04D2204ABB2002F584B /* Model */,
 				A491A04C2204AB4B002F584B /* Supporting files */,
 			);
@@ -109,6 +133,7 @@
 				A491A0332204AB1F002F584B /* Assets.xcassets */,
 				A491A0352204AB1F002F584B /* LaunchScreen.storyboard */,
 				A491A0382204AB1F002F584B /* Info.plist */,
+				A486C54A2204CA810012102D /* Localizable.strings */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -205,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A491A0372204AB1F002F584B /* LaunchScreen.storyboard in Resources */,
+				A486C54B2204CA810012102D /* Localizable.strings in Resources */,
 				A491A0342204AB1F002F584B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +251,7 @@
 			files = (
 				A491A02D2204AB1D002F584B /* AppDelegate.swift in Sources */,
 				A491A0542204ABB2002F584B /* Being.swift in Sources */,
+				A486C54F2204CAA50012102D /* Strings.swift in Sources */,
 				A491A0522204ABB2002F584B /* Nothing.swift in Sources */,
 				A491A0532204ABB2002F584B /* Becoming.swift in Sources */,
 			);
@@ -235,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46F22FB2204B0D300E0343F /* BeingTests.swift in Sources */,
+				A486C5542204D4480012102D /* NothingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

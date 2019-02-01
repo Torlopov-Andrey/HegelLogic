@@ -30,4 +30,23 @@ class BeingTests: XCTestCase {
 	func testBeingParentIsEmpty() {
 		XCTAssertEqual(sut.parents.count, 1)
 	}
+	
+	func testTransitionAndThink() {
+		let result = sut.transition()
+		XCTAssertTrue(result.isMember(of: Nothing.self))
+	}
+	
+	func testNotSimpleBeingTransitionAndThink() {
+		let result = sut.transition().transition()
+		XCTAssertTrue(result.isMember(of: Being.self))
+	}
+	
+	func testBecomingTransitionAndThink() {
+		let result = sut.transition().transition().transition()
+		XCTAssertTrue(result.isMember(of: Becoming.self))
+	}
+	
+	func testDescription() {
+		XCTAssertEqual(sut.description(), String(.simpleBeing))
+	}
 }

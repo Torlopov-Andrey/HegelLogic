@@ -11,11 +11,11 @@ import Foundation
 class Nothing: Being {
 	
 	override func transition() -> Being {
-		let condition = parents.filter { $0 is Being }.count > 1 && parents.filter { $0 is Nothing }.count > 0
+		let condition = parents.filter { $0.isMember(of: Being.self) }.count > 1 && parents.filter { $0.isMember(of: Nothing.self) }.count > 0
 		return condition ? Becoming(parents: parents) : Being(parents: parents)
 	}
 	
 	override func description() -> String {
-		return customDescription ?? "Nothing with parents [\(parents.count - 1)]"
+		return customDescription ?? "\(String(.nothingDescription)) [\(parents.count - 1)]"
 	}
 }
