@@ -11,15 +11,15 @@ import XCTest
 
 class BeingTests: XCTestCase {
 
-	let sut: Being = Being(parents: [], customDescription: nil)
+	var sut: Being!
 	
     override func setUp() {
         super.setUp()
-		//
+		sut = Being(parents: [], customDescription: nil)
     }
 
     override func tearDown() {
-		//
+		sut = nil
         super.tearDown()
     }
 
@@ -28,6 +28,6 @@ class BeingTests: XCTestCase {
     }
 	
 	func testBeingParentIsEmpty() {
-		XCTAssertEqual(sut.parents.count, 0)
+		XCTAssertEqual(sut.parents.count, 1)
 	}
 }
