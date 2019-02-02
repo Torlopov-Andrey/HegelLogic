@@ -13,6 +13,9 @@ extension String {
 	enum Strings: String {
 		case simpleBeing
 		case nothingDescription
+		case becomingDescription
+		case arrivalMoment
+		case occurrenceMoment
 	}
 }
 

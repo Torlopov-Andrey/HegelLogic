@@ -16,6 +16,6 @@ class Nothing: Being {
 	}
 	
 	override func description() -> String {
-		return customDescription ?? "\(String(.nothingDescription)) [\(parents.count - 1)]"
+		return customDescription ?? "\(String(.nothingDescription)): [\(parents.count - 1)]"
 	}
 }

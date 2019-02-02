@@ -11,6 +11,11 @@
 		A486C54B2204CA810012102D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A486C54A2204CA810012102D /* Localizable.strings */; };
 		A486C54F2204CAA50012102D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C54E2204CAA50012102D /* Strings.swift */; };
 		A486C5542204D4480012102D /* NothingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C5532204D4480012102D /* NothingTests.swift */; };
+		A486C5562204D7380012102D /* BecomingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C5552204D7380012102D /* BecomingTests.swift */; };
+		A486C55822056E060012102D /* ArrivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C55722056E060012102D /* ArrivalTests.swift */; };
+		A486C55A22056E3F0012102D /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C55922056E3F0012102D /* Arrival.swift */; };
+		A486C55C220572BC0012102D /* OccurrenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C55B220572BC0012102D /* OccurrenceTests.swift */; };
+		A486C55E220572E40012102D /* Occurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486C55D220572E40012102D /* Occurrence.swift */; };
 		A491A02D2204AB1D002F584B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A02C2204AB1D002F584B /* AppDelegate.swift */; };
 		A491A0342204AB1F002F584B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491A0332204AB1F002F584B /* Assets.xcassets */; };
 		A491A0372204AB1F002F584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491A0352204AB1F002F584B /* LaunchScreen.storyboard */; };
@@ -34,6 +39,11 @@
 		A486C54A2204CA810012102D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A486C54E2204CAA50012102D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A486C5532204D4480012102D /* NothingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingTests.swift; sourceTree = "<group>"; };
+		A486C5552204D7380012102D /* BecomingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BecomingTests.swift; sourceTree = "<group>"; };
+		A486C55722056E060012102D /* ArrivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalTests.swift; sourceTree = "<group>"; };
+		A486C55922056E3F0012102D /* Arrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrival.swift; sourceTree = "<group>"; };
+		A486C55B220572BC0012102D /* OccurrenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccurrenceTests.swift; sourceTree = "<group>"; };
+		A486C55D220572E40012102D /* Occurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occurrence.swift; sourceTree = "<group>"; };
 		A491A0292204AB1D002F584B /* HegelSOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HegelSOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A491A02C2204AB1D002F584B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A491A0332204AB1F002F584B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,8 +77,11 @@
 		A46F22FC2204B0D800E0343F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A486C55722056E060012102D /* ArrivalTests.swift */,
+				A486C5552204D7380012102D /* BecomingTests.swift */,
 				A46F22FA2204B0D300E0343F /* BeingTests.swift */,
 				A486C5532204D4480012102D /* NothingTests.swift */,
+				A486C55B220572BC0012102D /* OccurrenceTests.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,9 +154,11 @@
 		A491A04D2204ABB2002F584B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A491A04E2204ABB2002F584B /* Nothing.swift */,
+				A486C55922056E3F0012102D /* Arrival.swift */,
 				A491A04F2204ABB2002F584B /* Becoming.swift */,
 				A491A0502204ABB2002F584B /* Being.swift */,
+				A491A04E2204ABB2002F584B /* Nothing.swift */,
+				A486C55D220572E40012102D /* Occurrence.swift */,
 			);
 			path = Model;
 			sourceTree = SOURCE_ROOT;
@@ -250,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A491A02D2204AB1D002F584B /* AppDelegate.swift in Sources */,
+				A486C55E220572E40012102D /* Occurrence.swift in Sources */,
+				A486C55A22056E3F0012102D /* Arrival.swift in Sources */,
 				A491A0542204ABB2002F584B /* Being.swift in Sources */,
 				A486C54F2204CAA50012102D /* Strings.swift in Sources */,
 				A491A0522204ABB2002F584B /* Nothing.swift in Sources */,
@@ -262,6 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46F22FB2204B0D300E0343F /* BeingTests.swift in Sources */,
+				A486C55822056E060012102D /* ArrivalTests.swift in Sources */,
+				A486C5562204D7380012102D /* BecomingTests.swift in Sources */,
+				A486C55C220572BC0012102D /* OccurrenceTests.swift in Sources */,
 				A486C5542204D4480012102D /* NothingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,15 +10,15 @@ import Foundation
 
 class Becoming: Being {
 	
-	func momentOfOccurrence() -> Nothing {
-		return Nothing(parents: parents, customDescription: "Moment of occurrence with parents: [\(self.parents.count - 1)]")
+	func momentOfOccurrence() -> Occurrence {
+		return Occurrence(parents: parents, customDescription: "\(String(.occurrenceMoment)): [\(parents.count)]")
 	}
 	
-	func momentOfArrival() -> Being {
-		return Being(parents: parents, customDescription: "Moment of arrival with parents: [\(self.parents.count - 1)]")
+	func momentOfArrival() -> Arrival {
+		return Arrival(parents: parents, customDescription: "\(String(.arrivalMoment)): [\(parents.count)]")
 	}
 	
 	override func description() -> String {
-		return "Becoming with parents [\(parents.count - 1)]"
+		return customDescription ?? "\(String(.becomingDescription)): [\(parents.count - 1)]"
 	}
 }
