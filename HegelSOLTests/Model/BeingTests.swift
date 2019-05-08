@@ -9,23 +9,25 @@
 import XCTest
 @testable import HegelSOL
 
-class BeingTests: XCTestCase {
+//Понятие "Бытие"
 
+class BeingTests: XCTestCase {
+	
 	var sut: Being!
 	
-    override func setUp() {
-        super.setUp()
+	override func setUp() {
+		super.setUp()
 		sut = Being(parents: [], customDescription: nil)
-    }
-
-    override func tearDown() {
+	}
+	
+	override func tearDown() {
 		sut = nil
-        super.tearDown()
-    }
-
-    func testBeingIsNotNil() {
+		super.tearDown()
+	}
+	
+	func testBeingIsNotNil() {
 		XCTAssertNotNil(sut)
-    }
+	}
 	
 	func testBeingParentIsEmpty() {
 		XCTAssertEqual(sut.parents.count, 1)
@@ -38,7 +40,7 @@ class BeingTests: XCTestCase {
 	
 	func testNotSimpleBeingTransitionAndThink() {
 		let result = sut.transition().transition()
-		XCTAssertTrue(result.isMember(of: Being.self))
+		XCTAssertTrue(result.isMember(of: Becoming.self))
 	}
 	
 	func testBecomingTransitionAndThink() {

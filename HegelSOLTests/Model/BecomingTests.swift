@@ -9,6 +9,7 @@
 import XCTest
 @testable import HegelSOL
 
+//Тестируем становление
 class BecomingTests: XCTestCase {
 
 	var sut: Becoming!
@@ -16,7 +17,7 @@ class BecomingTests: XCTestCase {
     override func setUp() {
         super.setUp()
 		let being = Being()
-		if let becoming = being.think().transition().transition() as? Becoming {
+		if let becoming = being.transition().transition().transition() as? Becoming {
 			sut = becoming
 		}
 		else {
@@ -39,7 +40,7 @@ class BecomingTests: XCTestCase {
 	
 	func testTransitionAndThink() {
 		XCTAssertTrue(sut.transition().isMember(of: Becoming.self))
-		XCTAssertTrue(sut.transition().transition().think().isMember(of: Becoming.self))
+		XCTAssertTrue(sut.transition().transition().transition().isMember(of: Becoming.self))
 	}
 	
 	func testDescription() {
@@ -47,11 +48,11 @@ class BecomingTests: XCTestCase {
 	}
 	
 	func testOccurrenceMoment() {
-		XCTAssertTrue(sut.momentOfOccurrence().isMember(of: Nothing.self))
+		XCTAssertTrue(sut.momentOfOccurrence().isMember(of: Becoming.self))
 	}
 	
 	func testArrivalMoment() {
-		XCTAssertTrue(sut.momentOfArrival().isMember(of: Being.self))
+		XCTAssertTrue(sut.momentOfArrival().isMember(of: Becoming.self))
 	}
 	
 	func testOccurrenceDescription() {

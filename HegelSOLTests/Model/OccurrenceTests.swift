@@ -16,7 +16,7 @@ class OccurrenceTests: XCTestCase {
 	override func setUp() {
 		super.setUp()
 		let being = Being()
-		if let becoming = being.think().transition().transition() as? Becoming {
+		if let becoming = being.transition().transition().transition() as? Becoming {
 			sut = becoming.momentOfOccurrence()
 		}
 		else {
@@ -39,7 +39,7 @@ class OccurrenceTests: XCTestCase {
 	
 	func testTransitionAndThink() {
 		XCTAssertTrue(sut.transition().isMember(of: Becoming.self))
-		XCTAssertTrue(sut.transition().transition().think().isMember(of: Becoming.self))
+		XCTAssertTrue(sut.transition().transition().transition().isMember(of: Becoming.self))
 	}
 	
 	func testDescription() {
@@ -47,7 +47,7 @@ class OccurrenceTests: XCTestCase {
 	}
 	
 	func testDescriptionAfterThinking() {
-		let result = sut.think()
-		XCTAssertEqual(result.description(), "\(String(.nothingDescription)): [5]")
+		let result = sut.transition()
+		XCTAssertEqual(result.description(), "\(String(.becomingDescription)): [5]")
 	}
 }

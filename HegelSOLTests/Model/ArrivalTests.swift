@@ -16,7 +16,7 @@ class ArrivalTests: XCTestCase {
 	override func setUp() {
 		super.setUp()
 		let being = Being()
-		if let becoming = being.think().transition().transition() as? Becoming {
+		if let becoming = being.transition().transition().transition() as? Becoming {
 			sut = becoming.momentOfArrival()
 		}
 		else {
@@ -39,7 +39,7 @@ class ArrivalTests: XCTestCase {
 	
 	func testTransitionAndThink() {
 		XCTAssertTrue(sut.transition().isMember(of: Being.self))
-		XCTAssertTrue(sut.transition().transition().think().isMember(of: Becoming.self))
+		XCTAssertTrue(sut.transition().transition().transition().isMember(of: Becoming.self))
 	}
 	
 	func testDescription() {

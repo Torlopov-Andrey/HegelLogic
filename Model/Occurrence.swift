@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Возникновение
 class Occurrence: Being {
 
 //	override func description() -> String {
